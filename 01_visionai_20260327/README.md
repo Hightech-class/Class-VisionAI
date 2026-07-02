@@ -9,18 +9,15 @@
 * 디지털 변환
   ** M*N 영상으로 샘플링(sampling)
   ** L 단계로 양자화(quantization)
-![image](https://github.com/user-attachments/assets/15d6f4f1-1a2e-462c-a1e8-4eb98153eb0a)
  
 * 영상 좌표계
  ** 왼쪽 위 구석이 원점 , (y,x)표기
- ![image](https://github.com/user-attachments/assets/95ae508b-e27c-4006-a1bd-f45844594e12)
 
 * OpenCV는 numpy.ndarray로 영상을 표현함
  ** numpy.ndarray가 지원하는 다양한 함수를 사용할 수 있음 (min, max, argmin, argmax, mean, sort, reshape, transpose,.....)
 
 * RGB 채널별로 디스플레이
  ** numpy의 슬라이싱 기능을 이용하여 RGB 채널별로 디스플레이함
-  ![image](https://github.com/user-attachments/assets/ccc2645d-2d72-4e5e-86d6-981c79b175ba)
 
 * 이진화
  ** 알고리즘 : 임계값 T보다 큰 화소는 1, 그렇지 않은 화소는 0으로 바꿈. 임계값 결정이 중요함
